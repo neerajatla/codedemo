@@ -6,6 +6,7 @@ public class MainClass {
 		System.out.println("Hi! Welcome to capgemini");
 		
 		greet();
+		show();
 
 	}
 
@@ -13,5 +14,9 @@ public class MainClass {
 		System.out.println("inside greet");
 		System.out.println("after first commit");
 		
+	}
+	
+	public static void show() {
+		System.out.println("inside show");
 	}
 }
